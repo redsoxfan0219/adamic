@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: adamic
+Version: 0.0.1
+Summary: A package to create data dictionaries, given a pandas df
+Home-page: https://github.com/pypa/sampleproject
+Author: Ben Moran
+Author-email: benjamin.moran.287@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/redsoxfan0219/adamic
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
 # adamic Package
 
 ## Overview
@@ -32,3 +49,4 @@ Finally, you will be prompted to name your preferred file extension. `.csv`, `.j
 ## Credit
 
 I've borrowed ideas for this package (especially the method of adding definitions) from [this Medium article](https://peter-easter-do.medium.com/creating-a-data-dictionary-with-python-cccb212e44dc). 
+
