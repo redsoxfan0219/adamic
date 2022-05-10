@@ -82,6 +82,6 @@ def create_data_dictionary(dataFrame):
     Wrapper function to execute the main three functions.
     """
     
-    initialized_dict = initialize_data_dictionary(dataFrame)
-    defined_dict = add_dictionary_definition(initialized_dict)
-    output_dataframe(defined_dict)
+    initialized_dict = _initialize_data_dictionary(dataFrame)
+    defined_dict = _add_dictionary_definition(initialized_dict)
+    _output_dataframe(defined_dict)
