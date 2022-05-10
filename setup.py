@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.2'
+VERSION = '0.1.3'
 PACKAGE_NAME = 'adamic'
 AUTHOR = 'Ben Moran'
 AUTHOR_EMAIL = 'benjamin.moran.287@gmail.com'
