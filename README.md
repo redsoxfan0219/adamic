@@ -16,13 +16,13 @@ pip install adamic
 After installing the package to your environment, import the package to your script, Jupyter notebook, or directly to the `python3` command line.
 
 ```py
-import adamic
+from adamic import adamic
 ```
 
 To create your data dictionary, pass a Pandas dataframe to the `create_data_dictionary()` function:
 
 ```py
-create_data_dictionary(sample_df)
+adamic.create_data_dictionary(sample_df)
 ```
 
 The package will prompt you to supply definitions for each variable in the dataset. Hit `Enter` after supplying definition or if you want to define the variable later after the output file has been created.

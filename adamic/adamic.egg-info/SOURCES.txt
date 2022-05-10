@@ -1,8 +1,0 @@
-LICENSE.txt
-README.md
-pyproject.toml
-setup.cfg
-adamic/adamic.egg-info/PKG-INFO
-adamic/adamic.egg-info/SOURCES.txt
-adamic/adamic.egg-info/dependency_links.txt
-adamic/adamic.egg-info/top_level.txt

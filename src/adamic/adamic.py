@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-def initialize_data_dictionary(dataFrame):
+def _initialize_data_dictionary(dataFrame):
     """
     Creates a shell of data dictionary. Output = Python dict.
     """
@@ -39,7 +39,7 @@ def initialize_data_dictionary(dataFrame):
 
     return pd_dict
 
-def add_dictionary_definition(data_dictionary_df):
+def _add_dictionary_definition(data_dictionary_df):
     """
     Prompts user to supply definitions for data dictionary. Output = transposed pandas dataframe.
     """
@@ -54,7 +54,7 @@ def add_dictionary_definition(data_dictionary_df):
 
     return pd_dict_transposed
 
-def output_dataframe(pd_dict_transposed):
+def _output_dataframe(pd_dict_transposed):
     """
     Prepares output file after user specifies extension preference. Output = .csv,.json, or .xslx file.
     """
