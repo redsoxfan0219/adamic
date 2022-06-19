@@ -6,7 +6,7 @@ This package contains the code to build a data dictionary when passed a Pandas d
 
 ## Installation
 
-This package is available on `pip`. To install, run the following from your preferred shell:
+This package is available via `pip`. To install, run the following from your preferred shell:
 ```sh
 pip install adamic
 ```
